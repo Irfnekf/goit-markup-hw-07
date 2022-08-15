@@ -250,7 +250,7 @@ img {
   opacity: 1;
 }
 
-.peculiarity__icon-inner {
+.peculiarity__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
