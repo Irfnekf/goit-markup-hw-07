@@ -1,6 +1,6 @@
 body {
-  background-color: var(--primay-bg-color);
-  color: var(--title-text-color);
+  background-color: #ffffff;
+  color: #212121;
   font-family: Roboto, sans-serif;
 }
 
@@ -250,14 +250,14 @@ img {
   opacity: 1;
 }
 
-.peculiarity-icon {
+.peculiarity__icon-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.peculiarity-icon__item {
+.peculiarity__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
