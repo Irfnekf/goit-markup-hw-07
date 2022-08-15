@@ -254,13 +254,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
-}
-
-.peculiarity__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
