@@ -3,24 +3,6 @@ body {
   color: $title-text-color;
   font-family: $primary-font;
 }
-.list {
-  list-style: none;
-}
-
-ul,
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 .hide {
   position: absolute;
@@ -47,4 +29,12 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }

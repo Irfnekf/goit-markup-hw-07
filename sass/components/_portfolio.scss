@@ -49,13 +49,16 @@
   padding: 63px 24px;
   height: 294px;
   width: 100%;
-
-  position: absolute;
-  top: 0;
+  @include translateXY($left, 0, translateY(100%));
   opacity: 0;
-
-  transform: translate(0, 100%);
   transition: transform $animation, opacity $animation;
+
+  .project-link:hover &,
+  .project-link:focus & {
+    opacity: 1;
+    bottom: 100%;
+    transform: translate(0, 0);
+  }
 }
 .project-link__inner {
   overflow: hidden;
@@ -69,13 +72,6 @@
   &:hover,
   &:focus {
     box-shadow: $box-shadow-portfolio;
-  }
-
-  &:hover .project-link__aside-text,
-  &:focus .project-link__aside-text {
-    opacity: 1;
-    bottom: 100%;
-    transform: translate(0, 0);
   }
 }
 
